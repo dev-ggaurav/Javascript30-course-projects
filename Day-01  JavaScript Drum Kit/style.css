@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html {
+  font-size: 10px;
+  font-family: Poppins,sans-serif;
+}
+
+:root{
+  --background:#010101;
+  --primary:#3e22f3;
+  --accent:#f3f169;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: var(--background);
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid var(--accent);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: var(--primary);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: var(--accent);
+  box-shadow: 0 0 1rem var(--accent);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  font-family: inherit;
+  color: var(--accent);
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #fff;
+}
+
+footer{
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+footer p{
+  color: #fff;
+}
+
+footer a{
+  color: var(--primary);
+}
