@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Sansita Swashed,sans-serif;
+}
+
+.panels{
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    background-size: cover;
+    transition:
+        font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        background 0.2s;
+    cursor: pointer;
+}
+
+.panel-1 { 
+    background-image:url(/images/pexels-alex-azabache-3214993.jpg);
+ }
+ 
+.panel-2 { 
+    background-image:url(/images/pexels-kaique-rocha-775201.jpg);
+ }
+
+.panel-3 { 
+    background-image: url(/images/pexels-max-andrey-1366630.jpg);
+ }
+
+.panel-4 { 
+    background-image:url(/images/pexels-oliver-sjöström-931007.jpg);
+ }
+
+.panel-5 {
+     background-image:url(/images/pexels-ricardo-esquivel-1586298.jpg);
+ }
+
+.panel > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    flex: 1 0 auto;
+    transition: transform 0.5s;
+}
+
+.panel > :first-child{
+    transform: translateY(-100%);
+}
+
+.panel > :last-child{
+    transform: translateY(100%);
+}
+
+.panel.open-active > :first-child{
+    transform: translateY(0);
+}
+
+.panel.open-active > :last-child{
+    transform: translateY(0);
+}
+
+.panel.open{
+    font-size: 4rem;
+    flex: 5;
+}
+
+
