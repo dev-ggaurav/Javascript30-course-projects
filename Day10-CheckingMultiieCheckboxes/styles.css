@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 2.1rem;
+    padding: 2rem 0;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    background-color: #6D5ACF;
+    padding: 2rem 5rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+input[type="checkbox"] {
+        margin-right: 5rem;
+  }
+
+input:checked + p {
+    text-decoration: line-through;
+  }
