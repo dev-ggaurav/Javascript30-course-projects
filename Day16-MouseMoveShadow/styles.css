@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    color: #FD4659;
+    text-shadow: 10px 10px 0px  #FDB0C0;
+    font-size: 100px;
+  }
