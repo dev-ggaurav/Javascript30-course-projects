@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Synthesis</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <main class="voicesyn">
+        
+        <h1>Javascript30 Speech Synthesis</h1>
+
+        <select name="voice" id="voices">
+            <option value="">Select a Voice</option>
+        </select>
+
+        <p>Speed</p>
+        <input type="range" name="rate" min="0" max="3" value="1" step="0.1">
+
+
+        <p>Pitch</p>
+        <input type="range" name="pitch" min="0" max="2" value="1" step="0.1">
+
+
+        <textarea name="text" id="textarea">I Love Javascript 💛</textarea>
+
+        <div class="cta">
+            <button id="stop">Stop</button>
+            <button id="speak">Speak</button>
+        </div>
+        
+
+    </main>
+
+<script src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Montserrat;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.voicesyn{
+    padding:0 5rem;
+    background-color: #16161a;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    padding: 1.5rem;
+}
+
+select{
+    margin: 3rem 0;
+}
+
+textarea{
+    margin: 3rem 0;
+}
+
+.cta{
+    display: flex;
+}
+
+button{
+    width: 100%;
+    margin: 0 3rem 3rem 3rem;
+    padding: 0.5rem 1rem;
+    background-color: #5D21D0;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
