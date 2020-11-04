@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Poppins,sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 2.1rem;
+    margin-top: 3rem;
+}
+
+.container {
+    height: 80rem;
+    padding: 10rem;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    position: relative;
+}
+
+.container.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.div {
+    width: 21vw;
+    height: 30rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15rem;
+    font-weight: 100;
+    margin: 0 2rem;
+    transition: all 0.3s ease;
+}
+
+.container.active .div{
+    box-shadow: 0 36px 80px rgba(0, 0, 0, 0.19);
+
+}
+
+.div-1{
+    background-color: lightblue;
+}
+.div-2{
+    background-color: lightcoral;
+}
+.div-3{
+    background-color: lightcyan;
+}
+.div-4{
+    background-color: lightgreen;
+}
+.div-5{
+    background-color: lightgrey;
+}
+.div-6{
+    background-color: lightpink;
+}
+.div-7{
+    background-color: lightsalmon;
+}
+.div-8{
+    background-color: lightseagreen;
+}
+.div-9{
+    background-color: lightgoldenrodyellow;
+}
+.div-10{
+    background-color: lightslategrey;
+}
+
+.div-11{
+    background-color: lightblue;
+}
+.div-12{
+    background-color: lightcoral;
+}
+.div-13{
+    background-color: lightcyan;
+}
+.div-14{
+    background-color: lightgreen;
+}
+.div-15{
+    background-color: lightgrey;
+}
+.div-16{
+    background-color: lightpink;
+}
+.div-17{
+    background-color: lightsalmon;
+}
+.div-18{
+    background-color: lightseagreen;
+}
+.div-19{
+    background-color: lightgoldenrodyellow;
+}
+.div-20{
+    background-color: lightslategrey;
+}
